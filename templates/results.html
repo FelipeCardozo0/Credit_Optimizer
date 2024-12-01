@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Optimizer - Results</title>
+</head>
+<body>
+    <h1>Credit Analysis Results</h1>
+    <p>Your file has been processed. Click the link below to download the results:</p>
+    <a href="{{ url_for('download_file', filename=file_url.split('/')[-1]) }}">Download Processed File</a>
+</body>
+</html>
