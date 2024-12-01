@@ -1,1 +1,46 @@
-loading ...
+Flask
+pandas
+openpyxl
+
+My file structure:
+credit_optimizer/
+├── requirements.txt           # Python dependencies
+├── backend/                   # Backend logic and server-side code
+│   ├── server.py                 # Main Flask application
+│   ├── rules.py               # Loan decision logic (rules-based)
+│   ├── data_processing.py     # File processing logic
+│   └── utils.py               # Helper functions
+├── frontend/                  # Frontend files for user interface
+│   ├── style.css              # Stylesheet for the frontend
+│   ├── scripts.js             # JavaScript for interactivity
+│   ├── index.html             # Main page (file upload form)
+├── uploads/                   # Directory for storing uploaded files (runtime-generated)
+├── samples/                   # Example input files for users
+│   ├── sample_credit_data.csv # Example CSV file format
+│   └── sample_credit_data.xlsx # Example Excel file format
+└── logs/                      # Logs for debugging and error tracking
+    └── errors.log             # File for error logs (runtime-generated)
+
+
+
+    Cols Company
+* Credit Score
+* Debt-to-Equity Ratio (D/E)
+* Interest Coverage Ratio
+* Debt Service Coverage Ratio (DSCR)
+* Leverage Ratios
+* Profitability Ratios
+* Current Ratio
+* Quick Ratio
+* Cash Flow Analysis
+* Altman Z-Score
+
+- Colls Consumer
+* income
+* Assets estimation
+* Credit Score Debt-to-Income Ratio (DTI) 
+* Credit Utilization Ratio 
+* Payment History 
+* Credit History Length 
+* Outstanding Debts 
+* Employment History
